@@ -12,10 +12,6 @@ text-align: center;
      margin: 5% 0%;
 }
 
-#faq-caption h1:nth-child(1){
-
-}
-
 h2{
 	font-size: 1.5em !important;
 	margin: 0 !important;
@@ -79,9 +75,6 @@ h2{
     transition: max-height 0.2s ease-out;
 }
 
- h2.panel{
-
-}
 
 .accordion::before{
 	content: "Q. ";
@@ -101,10 +94,6 @@ h2.faq-heading{
 
 .single-question{
 	margin-bottom: 20px;
-}
-
-#faq-body img{
- 
 }
 
 img.faq-heading-image {

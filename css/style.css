@@ -377,6 +377,15 @@ img.lang_switcher{
 
 /* Mobile Menu*/
 
+#mobile-menu {
+    width: 250px;
+    right: -250px;
+}
+
+#mobile-menu.visible{
+    right: 0px;
+}
+
 #mobile-logo{
     display: none;
 }
@@ -409,7 +418,7 @@ img.lang_switcher{
     right: 0;
     background-image: linear-gradient( rgba(220,220,220, 0.9), rgba(234,31,83, 0.9));
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s all ease;
     padding-top: 60px;
 }
 
